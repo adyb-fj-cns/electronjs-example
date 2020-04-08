@@ -1,0 +1,5 @@
+taurus/*.log
+api/.vs
+api/bin
+api/obj
+.DS_Store

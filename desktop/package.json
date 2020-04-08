@@ -1,0 +1,23 @@
+{
+  "name": "electronjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adyb-fj-cns/electronjs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adyb-fj-cns/electronjs-example/issues"
+  },
+  "homepage": "https://github.com/adyb-fj-cns/electronjs-example#readme",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  }
+}

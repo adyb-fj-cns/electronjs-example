@@ -1,0 +1,3 @@
+FROM samuelmarks/mssql-server-fts-sqlpackage-linux
+
+COPY ./schema.sql /

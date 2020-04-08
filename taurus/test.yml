@@ -1,0 +1,21 @@
+execution:
+- concurrency: 1
+  ramp-up: 5s
+  hold-for: 10s
+  scenario: simple-test
+
+scenarios:
+  simple-test:
+    requests:
+    - label: Get Account Items
+      method: GET
+      url: http://localhost:5000/api/accountitems
+    
+    - label: Post Account Item
+      method: POST
+      url: http://localhost:5000/api/accountitems
+      headers:
+        Content-Type: application/json
+      body:
+        name: ady
+      
